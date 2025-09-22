@@ -1,4 +1,4 @@
-package com.manoj;
+package com.manoj.runnerJunit;
 
 import org.junit.runner.RunWith;
 import io.cucumber.junit.Cucumber;
@@ -11,7 +11,8 @@ import io.cucumber.junit.CucumberOptions;
         plugin = {
                 "pretty",
                 "html:target/cucumber-reports/cucumber.html",
-                "json:target/cucumber-reports/cucumber.json"
+                "json:target/cucumber-reports/cucumber.json",
+                "timeline:target/cucumber-reports/timeline"
         }
 )
 public class TestRunner {

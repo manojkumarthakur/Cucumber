@@ -1,4 +1,4 @@
-package com.manoj.tests;
+package com.manoj.runnersTestNG;
 
 
 
@@ -14,7 +14,7 @@ import org.testng.annotations.DataProvider;
                 "pretty",
                 "html:target/cucumber-reports/cucumber.html",
                 "json:target/cucumber-reports/cucumber.json",
-                "timeline:target/cucumber-reports"
+                "timeline:target/cucumber-reports/timeline"
         }
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
